@@ -3,3 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
+
+/* FOOTER STYLE */
+
+
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .socials,
+  .contact,
+  .sites {
+    flex: 1;
+    text-align: center;
+  }
+ 
+  h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+ 
+  .socials img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+ 
+  .contact p,
+  .sites p {
+    margin-bottom: 5px;
+  }
+  
